@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+	<title>demo</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="" class="brand-logo">D-Tax</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#service">サービス概要</a></li>
+					<li><a href="#company">会社概要</a></li>
+					<li><a href="#staff">スタッフ紹介</a></li>
+					<li><a href="#recruit">採用情報</a></li>
+					<li><a href="#map">所在地</a></li>
+					<li><a href="#contact">お問い合わせ</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!-- ヘッダー画像 -->
+		<div class="top-wrapper">
+			<img class="image" >
+		</div>
+
+		<!-- サービス画面 -->
+		<div class="service" id="service">
+			<div class="service-area">
+				<h5>＜サービス概要＞</h5>
+				<div class="card-deck">
+					<div class="card">
+						<img src="./img/phone.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">ユーザー向けアプリ</h5>
+							<p class="card-text">子どもからお年寄りまで使いやすい市民第一主義のアプリを開発し、無料で提供します。</p>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./img/b2d.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">自治体向けサービス</h5>
+							<p class="card-text">自治体の業務効率化のサポートとして、企画・代行業務を行います。</p>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./img/b2b.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">企業向けの事業</h5>
+							<p class="card-text">市民の声や嗜好を可視化することで、企業のサービス開発のサポートを行います。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 会社概要 -->
+		<div class="company" id="company">
+			<div class="company-area">
+				<h5>＜会社概要＞</h5>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">会社名：D-Tax</li>
+					<li class="list-group-item">創業：2020年11月</li>
+					<li class="list-group-item">共同経営：伊波鉄郎、伊禮賢司</li>
+					<li class="list-group-item">事業内容：自治体と市民を繋ぐサービス</li>
+					<li class="list-group-item">資本金：0円</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- スタッフ紹介 -->
+		<div class="staff" id="staff">
+			<div class="staff-area">
+				<h5>＜スタッフ紹介＞</h5>
+					<img src="./img/staff-list.jpg" class="staff-img">
+				</div>
+				<div class="btn-area">
+					<button type="button" class="staff1 btn btn-primary btn-sm">営業</button>
+					<button type="button" class="btn btn-primary btn-sm staff2">社長</button>
+					<button type="button" class="btn btn-primary btn-sm staff3">外注</button>
+					<button type="button" class="btn btn-primary btn-sm staff4">新人</button>
+				</div>
+		</div>
+
+		<!-- 採用情報 -->
+		<div class="recruit" id="recruit">
+			<div class="recruit-area">
+				<div class="jumbotron">
+					<h6 class="display-4">一緒に働きませんか？</h6>
+					<p class="lead">D-Taxでは即戦力を求めています。<br>ぜひ一緒に地域貢献をしませんか？</p>
+					<hr class="my-4">
+					<!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="申し訳ありません。" data-content="ご興味を持っていただきありがとうございます。今季の募集は終了しました。">申し込みはコチラ</button> -->
+					<!-- Modal Trigger -->
+					<a class="waves-effect waves-light btn modal-trigger" href="#modal1">一緒に働く</a>
+				  <!-- Modal Structure -->
+					<div id="modal1" class="modal">
+						<div class="modal-content">
+							<h4>ありがとうございます！</h4>
+							<img src="./img/sorry.jpg" style="width: 100%;height: 100%;">
+							<p>このたびは弊社に興味を持っていただき、誠にありがとうございます。<br>恐れ入りますが、今季の採用は終了しました。またの機会によろしくお願いします。</p>
+						</div>
+					<div class="modal-footer">
+						<a href="#!" class="modal-close waves-effect waves-green btn-flat">わかった！</a>
+    </div>
+  </div>
+          
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="map" style="margin: 20px 100px;">
+			<h5>＜所在地＞</h5>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.7582602078182!2d127.8034682505492!3d26.33432618329852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e5120bd0d05b55%3A0x8a19806436e233b3!2z5rKW57iE5biC5b255omA!5e0!3m2!1sja!2sjp!4v1604413268622!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+
+		<div id="contact">
+			<h5>＜お問い合わせ＞</h5>
+			<form class="form-area">
+				<div class="form-group">
+					<!-- <label for="exampleInputText1">名前</label> -->
+					<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="名前">
+				</div>
+				<div class="form-group">
+					<!-- <label for="exampleInputEmail1">メールアドレス</label> -->
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス">
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<input type="submit" id="send" class="btn btn-primary" style="width: 100%;" value="送信する">
+			</form>
+		</div>
+
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<img src="./img/DTax-header-logo.jpg" style="width: 300px; text-align: center; padding-top: 60px;"  class="grey-text text-lighten-4">
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">外部リンク紹介</h5>
+						<ul>
+							<li><a class="grey-text text-lighten-3" href="https://note.com/dtax" target="_blank" rel="noopener noreferrer">note</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://twitter.com/DTax_JP" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://www.instagram.com/dtax_irei/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+				© 2020 Copyright D-Tax
+				</div>
+			</div>
+		</footer>
+</div>
+
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+		<script src="./script.js"></script>
+		
+		<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		
+</body>
+</html>

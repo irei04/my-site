@@ -1,0 +1,119 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	display: block;
+}
+.nav-wrapper{
+	background-color:skyblue;
+	padding-bottom: 20px;
+}
+.brand-logo{
+	left: 20px;
+}
+
+.top-wrapper img{
+	top: 350px;
+	width: 1900px;
+	height: 600px;
+	position: relative;
+	display: block;
+}
+.image {
+	background-image: url("./img/DTax-HP-header.jpg");
+	background-position: 64px;
+	position: absolute;
+  top: 50%;
+  left: 43%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+h5{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/* サービスエリアのヘッダー画像からの距離 */
+.service {
+	padding-top: 100px;
+ }
+
+ /* サービス画像のエリア */
+ .card-deck{
+	margin: 20px 40px;
+	padding: 0px 0px;
+}
+img.card-img-top{
+	padding: 10px 10px;
+}
+.card-body{
+	background-color: skyblue;
+	padding:10px 30px;
+}
+.card-title{
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+}
+.card-text{
+	color: white;
+}
+li.list-group-item{
+	margin: 0px 30px;
+}
+
+/* スタッフ紹介 */
+.staff-area{
+	text-align: center;
+	margin: 20px 20px;
+}
+.staff-img{
+	width: 50%;
+	height: 50%;
+}
+.staff-btn{
+	width: 100px;
+}
+.btn-sm{
+	width: 100px;
+	padding: 5px 5px;
+}
+.btn-area{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+
+/* 採用情報 */
+.jumbotron{
+	width: max;
+	height: 80%;
+	text-align: center;
+	margin: 0px 0px;
+	padding: 40px 10px;
+}
+.display-4{
+	font-size: 40px;
+}
+
+
+
+.form-area{
+	margin: 20px 100px 50px 100px;
+}
+
+
+footer.page-footer{
+	background-color: skyblue;
+}
+.grey-text{
+	font-size: 20px;
+	text-align: center;
+}
+.footer-copyright{
+	text-align: center;
+}
